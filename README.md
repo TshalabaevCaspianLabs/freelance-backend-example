@@ -17,15 +17,15 @@ MyApp - это пример REST API сервиса, написанного на
 
 1. Склонируйте репозиторий:
     ```sh
-    git clone https://github.com/your-username/myapp.git
-    cd myapp
+    git clone https://github.com/TshalabaevCaspianLabs/freelance-backend-example.git
+    cd freelance-backend-example
     ```
 
 2. Настройте файл конфигурации:
     Создайте файл `config.yml` в корне проекта со следующим содержимым:
     ```yaml
     db:
-      host: localhost
+      host: db
       port: 5432
       user: gorm
       password: gorm
@@ -38,11 +38,3 @@ MyApp - это пример REST API сервиса, написанного на
     ```
 
 4. Откройте браузер и перейдите по адресу `http://localhost:8080/swagger/index.html` для просмотра документации API.
-
-## Маршруты
-
-- `POST /api/v1/users` - Создать нового пользователя
-
-## Авторы
-
-- Your Name
